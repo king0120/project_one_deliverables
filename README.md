@@ -108,63 +108,6 @@ Have a unique sound for each colored button and play the sound both when the com
 * Display a scoreboard of the longest sequence successfully played to date.
 * Have a way for the user to choose the difficulty (`easy`, `medium`, or `hard`) where the `easy` mode plays the sequence slowly (one second per highlighted button) and the `hard` mode plays the sequence more quickly (1/4 second per highlight).
 
-
-## Planning and Deliverables
-
-### Project Plan Deliverables (Due at time of Presentation):
-
-* All source code is checked into GitHub
-  - create a repo for your app and show that you've been commiting early and often while utilizing clear commit messages.
-  - 30+ commits
-* A `README.md` file containing:
-  - A Project description
-  - A Link to the Deployed App
-  - A Link to the Trello Board
-  - A Link to any Wirefames or Mockups (or inline photos / screenshots will work too!)
-  - A list of technologies, libraries, and/or frameworks used in the project, such as `Bootstrap`, `jQuery`, or `Animate.css`
-  - What you would like to add in version 2
-* Wireframes or Mockups -- what does the app look like?
-  - Simple: take a picture of a whiteboard drawing
-  - Advanced: use a tool such as [Balsamiq](https://balsamiq.com/) or [Mockingbird](https://gomockingbird.com/home)
-* User Stories in a PUBLIC [Trello](https://trello.com/) board
-  - You should have a Trello board tracking your User Stories
-  - Board lists should include:
-    * Backlog
-    * Todo
-    * In Progress
-    * Under Review
-    * Done
-    * Icebox
-
-### Sample Project `README.md` files:
-
-* [Tic-Tac-Toe](https://github.com/iamsydsmith/tic-tac-toe)
-* [FootUp](https://github.com/wschaeferiii/footup)
-
-## Make a new repo!
-Before you begin, make a new github repo for your project. **Do not** begin your project within the class repo.
-
-## Technical Requirements
-
-Your app must:
-
-* Render a game in the browser
-* Use Javascript or jQuery for DOM manipulation
-* Switch turns between two players and/or use some A.I. to control the game (except Hangman).
-* Design logic for winning & visually display which player won
-* Include separate HTML / CSS / JavaScript files
-* Write high quality code:
-  - Follow accepted naming conventions
-  - Consistent indentation
-  - Well-structured and readable code
-  - Semantic naming of variables, functions, CSS classes, etc.
-  - Short and clear functions that _do one thing_
-  - Efficient code- if you have your MVP, refactor
-  - DRY (Don't Repeat Yourself) code
-  - Comment your code (pseudo code)
-* Deploy your game online, where the rest of the world can access it. 
-* We suggest you deploy your project to [BitBalloon](https://www.bitballoon.com/).
-
 ## How to Get Started
 
 * First design your _MVP_ (Minimum Viable Product). Have a plan for completing an MVP before getting too involved with _advanced_ features.
