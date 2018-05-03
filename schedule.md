@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Geting started and scheduling your time
 
-Most importantly, remember to **go slowly and be methodical**. That means you should be testing your changes in-browser as you write each line or so of code.
+Most importantly, remember to **go slowly and be methodical**. That means you should be testing your changes in-browser as you write each line or so of code. Don't spend too much time trying to work out one particular problem - seek help! Time management is key. 
 Always be commiting. Deploy early and often.
 
 Here's a rough sketch of what you should do and in what order:
@@ -23,16 +23,18 @@ Here's a rough sketch of what you should do and in what order:
 * __Basic coding__. Work on reaching your MVP first. Decide what are the most basic elements to create for a simple, functioning game. Consider using [repl.it] (https://repl.it/) to write and test your code.
 
 ### Game UI
-* __Design your game board__. In addition to your wireframes, you need to think about the usuability of your board. Look at this from the standpoint of the player/user, so referencing your user stories is important. Test out your game design on your fellow developers, to see if they can navigate around without getting stuck.
-* __Click handlers__. Start writing your click handlers and connect them to the functions (events) they will be triggering. This requires DOM manipulation
+* __Design your game board__. In addition to your wireframes, you need to think about the usuability of your layout. Look at this from the standpoint of the player/user, so referencing your user stories is important. Test out your game design on your fellow developers, to see if they can navigate around without getting stuck.
+* __Click handlers__. Start writing your click handlers and connect them to the functions (events) they will be triggering. This requires DOM manipulation, and can be accomplished using JavaScript or jQuery.
+* __Live updating__. Update the game engine when the game board is updated.
+* __Interaction__. Work on communication with the player regarding turns, lives lost, status, etc. Again, check with your user stories.
+* __Overall game play__. Once you have the basic game functions running, it's time to think about the bigger picture. Work out how to create a new game, start the game, and finish the game. What does the player expect to experience at each level of the game?
 
-### Game API
-1.  [ ] Review [query-ajax-post](https://github.com/ga-wdi-boston/jquery-ajax-post)
-1.  [ ] Create Game, start new game (curl then web app)
-1.  [ ] Update Game, play the game (curl then web app)
-1.  [ ] Get Games (curl then web app)
+### Styling
+* __Third party libraries__. Time to add some pizzazz! There are styling libraries available to you ([Bootstrap] (https://getbootstrap.com/), [Materialize] (https://materializecss.com/)), so decide if they will be of use to you. Make sure that you read the docs thoroughly before diving in!
+* __CSS__. In addition to using libraries (or instead of), you can style your page using CSS. Make sure you use good naming conventions for your divs (ID's, classes), so that you know EXACTLY what you are styling. Try and make your website responsive by using CSS Grid or Flexbox.
 
 ### Final Touches
-1.  [ ] README
-2.  [ ] Troubleshoot/Debug
-3.  [ ] Style
+* Finish README.
+* Troubleshoot/Debug.
+* If there is time, try and accomplish some of the stretch goals (listed on the README page).
+* Deploy to [BitBalloon](https://www.bitballoon.com/).
