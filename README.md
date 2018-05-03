@@ -108,13 +108,15 @@ Have a unique sound for each colored button and play the sound both when the com
 * Display a scoreboard of the longest sequence successfully played to date.
 * Have a way for the user to choose the difficulty (`easy`, `medium`, or `hard`) where the `easy` mode plays the sequence slowly (one second per highlighted button) and the `hard` mode plays the sequence more quickly (1/4 second per highlight).
 
+---
+
 ## How to Get Started
 
-* First design your _MVP_ (Minimum Viable Product). Have a plan for completing an MVP before getting too involved with _advanced_ features.
-* Use _Trello_ to prioritize your User Stories / features. Focus on what is most important / critical to success.
-* _Timebox_ any experimental or optional ideas, features, or technologies. Remember that good _time management_ is key!
-* Commit your code early and often with good commit messages.
-* Use Git Branching for experimenting with different ideas and technologies.
+* __MVP__. First design your _MVP_ (Minimum Viable Product). Have a plan for completing an MVP before getting too involved with _advanced_ features. _Timebox_ any experimental or optional ideas, features, or technologies. Remember that good _time management_ is key!
+* __User Stories__. Use _Trello_ to prioritize your User Stories / features. Focus on what is most important / critical to success.
+* __Wire Frames__. Draft up a set of sketches to start from as you begin to design your app's front end. These sketches should be lightweight and rough so that you can easily iterate on them if you decide to add or remove features.
+* __Commitment__. Commit your code early and often with good commit messages.
+* __Branch__. Use Git Branching for experimenting with different ideas and technologies.
 
 ## Attendance, expectations of time commitment
 
